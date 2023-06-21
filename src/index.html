@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="scss/style.scss">
+
+    <script src="https://kit.fontawesome.com/b4e3d2b561.js" crossorigin="anonymous"></script>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    
+    <script type="module" src="./js/main.js"></script>
+
+    <title>Super Mario Form</title>
+
+</head>
+
+<body>
+    <div class="all">
+        <div class="primary">
+            <div class="container py-4 px-1 mx-0">
+                <div>
+                <h1 class="titleForm">Super Mario Form</h1>
+                </div>
+                <form id="myForm">
+                    <div class="mb-3">
+                        <!-- solid style -->
+                        <i class="fa-solid fa-user"></i>
+                        <label for="name" class="form-label">Nome:</label>
+                        <div class="help-button">
+                            <input type="text" class="form-control" id="name" name="name" required>
+                            <div class="tooltip">
+                                Informe seu nome completo.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <i class="fa-solid fa-envelope"></i>
+                        <label for="email" class="form-label">Email:</label>
+                        <div class="help-button">
+                            <input type="email" class="form-control" id="email" name="email" required>
+                            <div class="tooltip">
+                                Insira um endereço de email válido.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <i class="fa-solid fa-phone"></i>
+                        <label for="phone" class="form-label">Número de Telefone:</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{2}-[0-9]{1}-[0-9]{4}-[0-9]{4}"
+                            placeholder="Formato: xx-x-xxxx-xxxx" required>
+                        <small class="form-text text-muted">Informe o número de telefone no formato xx-x-xxxx-xxxx.</small>
+                    </div>
+
+                    <div class="mb-3">
+                        <i class="fa-solid fa-shield"></i>
+                        <label for="password" class="form-label">Senha:</label>
+                        <div class="help-button">
+                            <input type="password" class="form-control" id="password" name="password" minlength="6" required>
+                            <div class="tooltip">
+                                A senha deve ter no mínimo 6 caracteres.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="favorite-game" class="form-label">Jogo favorito do Super Mario:</label>
+                        <select id="favorite-game" name="favorite-game" class="form-select">
+                            <option value="">Selecione...</option>
+                            <option value="super-mario-bros">Super Mario Bros</option>
+                            <option value="super-mario-world">Super Mario World</option>
+                            <option value="super-mario-64">Super Mario 64</option>
+                            <option value="super-mario-odyssey">Super Mario Odyssey</option>
+                            <option value="super-mario-galaxy">Super Mario Galaxy</option>
+                            <option value="super-mario-sunshine">Super Mario Sunshine</option>
+                            <option value="super-mario-3d-world">Super Mario 3D World</option>
+                            <option value="super-mario-rpg">Super Mario RPG</option>
+                            <option value="super-mario-land">Super Mario Land</option>
+                            <option value="super-mario-kart">Super Mario Kart</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="participate-championship" class="form-label">Você aceitaria participar de um campeonato do seu jogo de
+                            Super Mario preferido?</label><br>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="participate-championship-yes" name="participate-championship"
+                                value="sim">
+                            <label class="form-check-label" for="participate-championship-yes">
+                                Sim
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="participate-championship-no" name="participate-championship"
+                                value="não">
+                            <label class="form-check-label" for="participate-championship-no">
+                                Não
+                            </label>
+                        </div>
+                    </div>
+                
+
+
+                    <div class="help-button">
+                        <div class="help-button">
+                            <button class="btn btn-sm btn-primary help-icon" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Digite a sua mensagem ou dúvida">
+                                <i class="fas fa-question-circle"></i>
+                            </button>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
