@@ -124,7 +124,7 @@ E abrir o endereço [http://localhost:8080/](http://localhost:8080/) no navegado
 
 Referências:
 
-- [<https://tailwindcss.com/docs/guides/vite>](https://getbootstrap.com/docs/5.3/getting-started/vite/)
+- [<https://getbootstrap.com/docs/5.3/getting-started/vite/>]
 
 ## Passo 3: Criar as sessões da página Home
 
