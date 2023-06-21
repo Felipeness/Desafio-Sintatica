@@ -120,7 +120,7 @@ npm start
 
 E abrir o endereço [http://localhost:8080/](http://localhost:8080/) no navegador:
 
-![Hello World](./docs/images/hello-world.png)
+![Hello World](./public/wp8695118-4k-mario-bros-desktop-wallpapers.jng)
 
 Referências:
 
