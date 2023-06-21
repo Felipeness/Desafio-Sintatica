@@ -1,4 +1,4 @@
-# Desafio-Sintatica
+# Desafio-Sintática
 Desafio para vaga de full stack developer na empresa Sintática.
 Este é um repositorio para versionar e organizar o projeto do desafio 
 
