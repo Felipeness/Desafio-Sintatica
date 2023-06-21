@@ -1,0 +1,87 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    .content {
+        flex: 1;
+    }
+}
+
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("1302522.jpg");
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.primary {
+    width: 50%;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+
+.form {
+    width: 100%;
+}
+
+.titleForm {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#myForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 80px;
+    width: 100%;
+}
+
+.help-button {
+    position: relative;
+}
+
+.help-button .tooltip {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.help-button:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 1;
+}
