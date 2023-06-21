@@ -154,7 +154,7 @@ Dessa forma já temos todas as sessões/componentes da página inicial criadaa e
 
 ## Passo 4: Criando cada sessão/componente
 
-Chegou o momento de criamos cada sessão do nosso site, para isso vamos utilizar o TailwindCSS para nos ajudar com os estilos e estilizar cada uma para que possamos ter a seguinte aparência final.
+Chegou o momento de criamos cada sessão do nosso site, para isso vamos utilizar o Bootstrap para nos ajudar com os estilos e estilizar cada uma para que possamos ter a seguinte aparência final.
 
 Você pode consultar cada componente para que entenda como foi feito, mas não se preocupe, pois explicamos cada detalhe no vídeo.
 
