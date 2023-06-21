@@ -33,7 +33,7 @@ npm create vite@latest
 
 E depois escolher as seguintes opções:
 
-- `? Project name: › react-3d-portfolio`
+- `? Project name: › Js-Super Mario-form`
 - `? Select a framework: › Vanilla`
 - `? Select a variant: › Javascript`
 
