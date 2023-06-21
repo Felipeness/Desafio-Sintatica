@@ -86,7 +86,7 @@ Importe o CSS do Bootstrap. Adicione o seguinte para importar todo o Sass de ori
 ```bash
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
-Você também pode importar nossas folhas de estilo individualmente, se desejar. Leia nossos documentos de importação do Sass para obter detalhes.
+Você também pode importar nossas folhas de estilo individualmente, se desejar.
 ```
 
 Em seguida, carregamos o CSS e importamos o JavaScript do Bootstrap. Adicione o seguinte para carregar o CSS e importar todos os JSs do Bootstrap. O Popper será importado automaticamente através do Bootstrap.src/js/main.js
