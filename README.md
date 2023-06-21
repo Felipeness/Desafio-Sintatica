@@ -1,8 +1,5 @@
 # Desafio-Sintatica
 Desafio para vaga de full stack developer na empresa Sintatica
-
-# Desafio-Sintatica
-Desafio para vaga de full stack developer na empresa Sintatica
 Este é um repositorio para versionar e organizar o projeto do desafio 
 
 ## Como funciona
